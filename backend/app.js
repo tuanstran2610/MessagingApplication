@@ -32,7 +32,7 @@ const io = socketIo(server, {
 const PORT = process.env.PORT || 3030;
 
 
-mongoose.connect('mongodb://localhost:27017/chat_app_db').then(() => {
+mongoose.connect('mongodb+srv://tuanstran-work:tuan2610tat@cluster0.wj5dj99.mongodb.net/').then(() => {
   console.log('Database connected')
 }).catch((err) => {
   console.log(`Error: ${err}`)

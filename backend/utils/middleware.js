@@ -10,7 +10,7 @@ export const sessionMiddleware = session({
     },
     store: MongoStore.create(
         {
-            mongoUrl: 'mongodb://localhost:27017/chat_app_db', // Explicitly provide URL
+            mongoUrl: 'mongodb+srv://tuanstran-work:tuan2610tat@cluster0.wj5dj99.mongodb.net/', // Explicitly provide URL
         }
     )
 });
